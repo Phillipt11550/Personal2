@@ -1,0 +1,62 @@
+section {
+    border: 10px;
+    height: 90vh; 
+
+    position: relative;
+
+
+}
+small{
+    text-align: ;
+}
+.container {
+    width: 100%;
+    border: 0px;
+    max-width: 700px;
+   
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 10;
+    bottom: 0;
+    margin: 0;
+
+}
+
+
+#amazon-modal-signup-form {
+    width: 300px;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+}
+#amazon-modal-signup-form label {
+    border: 10px;
+    padding: 1px;
+    display: block;
+    margin-bottom: 10px;
+}
+#amazon-modal-signup-form input[type="email"],
+#amazon-modal-signup-form input[type="password"] {
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+#amazon-modal-signup-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    cursor: pointer;
+}
+#amazon-modal-signup-form input[type="submit"]:hover {
+    background-color: #f7dc69;
+}
+
+
